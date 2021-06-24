@@ -9,7 +9,7 @@ public class MyController {
 	
 	@RequestMapping("/penta")
 	public String penta() {
-		return "Hello, applicaiton is running on JBOSS EAP/crontab";
+		return "Hello, applicaiton is running on JBOSS EAP/crontab real test!!";
 	}
 
 }
