@@ -6,9 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
+	@RequestMapping("/")
+	public String index() {
+		return "redirect:/main";
+	}
 	
-	
-	@RequestMapping("/test")
+	@RequestMapping("/main")
 	public String penta() {
 		return "Hello, applicaiton is running on JBOSS EAP/crontab real test!!";
 	}
