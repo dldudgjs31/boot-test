@@ -10,7 +10,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical"
 	href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <style>
 .bd-placeholder-img {
@@ -29,6 +28,7 @@
 </style>
 
 <link href="css/navbar-top-fixed.css" rel="stylesheet">
+<link rel="stylesheet" href="/webjars/bootstrap/5.0.1/css/bootstrap.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -86,7 +86,8 @@
     </tr>
   </tbody>
 </table>
+<script src="/webjars/jquery/3.6.0/jquerymin.js"></script>
+<script src="/webjars/bootstrap/5.0.1/js/bootstrap.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
