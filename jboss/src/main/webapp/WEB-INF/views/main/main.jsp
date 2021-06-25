@@ -8,7 +8,7 @@
 <title>PentaLink</title>
 <meta http-equiv="X-UA-Compatible" content="IE=dege">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/webjars/bootstrap/5.01/css/bootstrap.min.css">
+<link rel="stylesheet" href="/webjars/bootstrap/5.0.1/css/bootstrap.min.css">
 </head>
 <link href="css/navbar-top-fixed.css" rel="stylesheet">
 <body>
@@ -36,7 +36,6 @@
 </nav>
 
 <script src="/webjars/jquery/3.6.0/jquerymin.js"></script>
-<script src="/webjars/bootstrap/5.0.1/js/bootstrap.min.js"></script>
 <script src="/webjars/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
