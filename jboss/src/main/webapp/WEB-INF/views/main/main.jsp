@@ -32,27 +32,38 @@
 <link href="css/navbar-top-fixed.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">PentaLink</a>
-			<button class="navbar-toggler" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-				aria-controls="navbarCollapse" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav me-auto mb-2 mb-md-0">
-					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="#">Home</a></li>
-					<li class="nav-item"><a class="nav-link"
-						href="crontabtest/dbtest">DBtest</a></li>
-				</ul>
+<button class="btn">test</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 
-			</div>
-		</div>
-	</nav>
-
-	<script src="/webjars/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<script src="/webjars/bootstrap/5.0.1/js/bootstrap.min.js"/>
+<script src="/webjars/bootstrap/5.0.1/js/bootstrap.bundle.min.js"/>	
 </body>
 </html>
