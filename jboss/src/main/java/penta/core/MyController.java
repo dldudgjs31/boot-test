@@ -13,7 +13,7 @@ public class MyController {
 	
 	@RequestMapping("/main")
 	public String penta() {
-		return "main/main";
+		return "main/main1";
 	}
 
 }
