@@ -43,9 +43,8 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="${PageContext.reqeust.contextPath}/dbtest">Link</a>
+          <a class="nav-link" href="${pageContext.reqeust.contextPath}/dbtest">Link</a>
         </li>
-
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
