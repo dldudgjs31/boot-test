@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
- <jboss-web>
-         <context-root>/crontabtest</context-root>
- </jboss-web>
+<jboss-web>
+	<context-root>/penta</context-root>
+	<replication-config>
+		<replication-granularity>SESSION</replication-granularity>
+	</replication-config>
+</jboss-web>

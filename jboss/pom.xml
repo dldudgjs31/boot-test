@@ -35,10 +35,11 @@
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
-				<exclusion>
+				 <exclusion>
 					<groupId>ch.qos.logback</groupId>
 					<artifactId>logback-classic</artifactId>
-				</exclusion>
+				</exclusion> 
+				
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -94,6 +95,13 @@
 			<artifactId>jboss-el-api_3.0_spec</artifactId>
 			<version>2.0.0.Final</version>
 		</dependency>
+
+<dependency>
+    <groupId>org.bgee.log4jdbc-log4j2</groupId>
+    <artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+    <version>1.16</version>
+</dependency>
+
 
 	</dependencies>
 

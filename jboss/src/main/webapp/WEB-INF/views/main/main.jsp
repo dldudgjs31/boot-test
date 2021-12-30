@@ -1,3 +1,4 @@
+<%@page import="java.util.Enumeration"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -49,7 +50,11 @@
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="#">Home</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath}/dbtest">Link</a></li>
+						href="${pageContext.request.contextPath}/dbtest">db-test</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="${pageContext.request.contextPath}/upload-test">upload-test</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="${pageContext.request.contextPath}/logging">log-check</a></li>
 
 				</ul>
 
@@ -57,35 +62,18 @@
 		</div>
 	</nav>
 	<div class="container">
-		<table class="table">
-			<thead>
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-			</tbody>
-		</table>
+
+<%
+	HttpSession hp = request.getSession();
+	String id = hp.getId();
+	long creation = hp.getCreationTime();
+	int interval = hp.getMaxInactiveInterval();
+%>
+
+<h3>session id : <%=id%></h3>
+<h3>creation Time : <%=creation%></h3>
+<h3>MaxInactiveInterval : <%=interval%></h3>
+
 	</div>
 
 	<script
